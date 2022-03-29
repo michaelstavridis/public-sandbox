@@ -6,3 +6,8 @@ description: "This templates is just a generic blank template for running a medi
 version: "0.0.1"
 authorName: "Michael Stavridis"
 authorEmail: "Michael.Stavridis@sonraisecurity.com"
+
+   
+  - name: "Useless Checkbox"
+    required: false
+    type: "checkbox"
