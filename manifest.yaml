@@ -1,0 +1,8 @@
+# title of ticket template is required
+title: "Generic Blank Ticket Template"
+
+# The next fields are optional:
+description: "This templates is just a generic blank template for running a mediaiton bot via ticket template"
+version: "0.0.1"
+authorName: "Michael Stavridis"
+authorEmail: "Michael.Stavridis@sonraisecurity.com"
