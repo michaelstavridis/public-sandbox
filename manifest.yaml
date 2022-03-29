@@ -6,3 +6,9 @@ description: "This template allows you to setup a repeatable process of adding u
 version: "0.0.1"
 authorName: "Sonrai Security"
 authorEmail: "info@sonraisecurity.com"
+
+fields:
+  
+  - name: "Blank"
+    required: false
+    type: "checkbox"
