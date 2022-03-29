@@ -1,0 +1,8 @@
+# title of ticket template is required
+title: "Generic Ticket Template"
+
+# The next fields are optional:
+description: "This template allows you to setup a repeatable process of adding users to the Sonrai Platform"
+version: "0.0.1"
+authorName: "Sonrai Security"
+authorEmail: "info@sonraisecurity.com"
