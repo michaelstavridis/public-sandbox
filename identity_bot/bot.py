@@ -8,7 +8,7 @@ mut = mutation_files()
 
 
 def run(ctx):
-    _snooze_interval = 2  # hours
+    _snooze_interval = 1 # hours
 
     # Get the ticket data from the context
     ticket = ctx.config.get('data').get('ticket')
