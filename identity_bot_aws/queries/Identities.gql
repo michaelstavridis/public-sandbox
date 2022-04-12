@@ -14,7 +14,7 @@ query pivotedQuery {
     }
   ) {
     count
-    items(limit: 1000) {
+    items(limit: 500) {
       name
       label
       srn
