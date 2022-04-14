@@ -17,6 +17,6 @@ def run(ctx):
     logging.info('Tagging Identities')
     for row in data['Identities']['items']:
         mutation_variables = ('{"tag_name":"sonraiIdentityTag","label_value":"' + str(row['label']) + '","srn":"' + str(row['srn']) + '"}')
-        return_value = graphql_client.query(gql['labeltotag.mut'], mutation_variables)
+        return_value = graphql_client.query(gql['labeltotag.gql'], mutation_variables)
 
         print("\nReturn Value of Mutation: ", return_value)
